@@ -19,7 +19,7 @@ function Wathced({ movie }) {
       <div className="flex items-center mt-6">
         <button
           onClick={() => funDWatched(movie.imdbID)}
-          className="ml-6 bg-black px-2 py-1 rounded-full"
+          className="ml-6 bg-black px-1 py-1 rounded-full text-[0.7rem]"
         >
           ❌
         </button>
